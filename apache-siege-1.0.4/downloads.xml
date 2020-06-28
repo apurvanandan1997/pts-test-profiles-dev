@@ -33,6 +33,14 @@
       <PlatformSpecific>Linux, Solaris, BSD, MacOSX</PlatformSpecific>
     </Package>
     <Package>
+      <URL>https://raw.githubusercontent.com/apurvanandan1997/pts-test-profiles-patches/master/apache-siege-1.0.4/INCLUDE-SIGNAL-HEADER.patch</URL>
+      <MD5>0d3415820c82fbebbfe571c339d0badd</MD5>
+      <SHA256>67dcc5efaf079e9725a4350c3f760b69ca7a37dd04766ab92b005976e064f70b</SHA256>
+      <FileName>INCLUDE-SIGNAL-HEADER.patch</FileName>
+      <FileSize>260</FileSize>
+      <PlatformSpecific>Linux, Solaris, BSD, MacOSX</PlatformSpecific>
+    </Package>
+    <Package>
       <URL>http://download.joedog.org/siege/siege-3.1.4.tar.gz</URL>
       <MD5>a893b92a453e1c1d596314aa951981f4</MD5>
       <SHA256>0436970ca81ade76eb419bc42d3f8460b475079eb5d8f199d2fa83328893099d</SHA256>

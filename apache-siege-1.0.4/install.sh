@@ -25,6 +25,10 @@ mv -f pts.png httpd_/htdocs/
 
 cd ~
 tar -xf siege-3.1.4.tar.gz
+if [ $OS_TYPE = "BSD" ]
+then
+        patch -p0 < INCLUDE-SIGNAL-HEADER.patch
+fi
 cd siege-3.1.4
 ./configure
 make -j $NUM_CPU_CORES
