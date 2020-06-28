@@ -2,7 +2,13 @@
 
 unzip -o coremark-20190727.zip
 cd coremark-master
-gmake XCFLAGS="$CFLAGS -DMULTITHREAD=$NUM_CPU_CORES -DUSE_FORK=1" compile
+if [ $OS_TYPE = "BSD" ]
+then
+        gmake XCFLAGS="$CFLAGS -DMULTITHREAD=$NUM_CPU_CORES -DUSE_FORK=1" compile PORT_DIR=linux64
+else
+        make XCFLAGS="$CFLAGS -DMULTITHREAD=$NUM_CPU_CORES -DUSE_FORK=1" compile
+
+fi
 echo $? > ~/install-exit-status
 cd ~
 
