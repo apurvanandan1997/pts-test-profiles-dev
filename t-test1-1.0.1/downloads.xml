@@ -3,6 +3,13 @@
 <PhoronixTestSuite>
   <Downloads>
     <Package>
+      <URL>https://raw.githubusercontent.com/apurvanandan1997/pts-test-profiles-patches/master/t-test1-1.0.1/MEMALIGN.patch</URL>
+      <MD5>3d9f5a0fd3306259b9fe1983dd25160e</MD5>
+      <SHA256>90bbb9f57ac19f3141ce1959624b686bb9dc0071bf47b6dc17e24b31edc644ed</SHA256>
+      <FileName>MEMALIGN.patch</FileName>
+      <FileSize>305</FileSize>
+    </Package>
+    <Package>
       <URL>http://phoronix-test-suite.com/benchmark-files/t-test1c-20171.zip</URL>
       <MD5>27f626cb512bbd29a81ff7d3165e5f81</MD5>
       <SHA256>199388bfe018406724ef4525d9c93d37bf4e501bc8525d44a9b96af2743b93a6</SHA256>

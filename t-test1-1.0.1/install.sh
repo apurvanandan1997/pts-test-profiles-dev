@@ -1,6 +1,10 @@
 #!/bin/sh
 
 unzip -o t-test1c-20171.zip
+if [ $OS_TYPE = "BSD" ]
+then
+        patch -p0 < MEMALIGN.patch
+fi
 cc -pthread $CFLAGS -o t-test1_bin t-test1.c
 echo $? > ~/install-exit-status
 
