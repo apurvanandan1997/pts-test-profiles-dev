@@ -1,6 +1,10 @@
 #!/bin/sh
 
 tar -xf mbw-20180908.tar.xz
+if [ $OS_TYPE = "BSD" ]
+then
+        patch -p0 < MEMCPY.patch
+fi
 cd mbw
 
 CFLAGS="-O3 -march=native $CFLAGS"

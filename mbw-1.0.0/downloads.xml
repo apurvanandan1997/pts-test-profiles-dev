@@ -3,6 +3,13 @@
 <PhoronixTestSuite>
   <Downloads>
     <Package>
+      <URL>https://raw.githubusercontent.com/apurvanandan1997/pts-test-profiles-patches/master/mbw-1.0.0/MEMCPY.patch</URL>
+      <MD5>c33e28151869f8e2c07222ae2c5ff6ac</MD5>
+      <SHA256>cba0f8349ad67760ab10a72facb8ccca07cf958deca2bcd6fea4c73ce0907669</SHA256>
+      <FileName>MEMCPY.patch</FileName>
+      <FileSize>384</FileSize>
+    </Package>
+    <Package>
       <URL>http://www.phoronix-test-suite.com/benchmark-files/mbw-20180908.tar.xz</URL>
       <MD5>e6b1a58d763d00be3edfcc7d0cea7d42</MD5>
       <SHA256>113d27fcb2c259c33076bf383a05c7f9b0376be1d77b2fd37f13dd15a31bccdf</SHA256>
