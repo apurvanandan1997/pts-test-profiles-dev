@@ -5,13 +5,13 @@ mkdir $HOME/mafft_
 tar -xvf mafft-7.392-without-extensions-src.tgz
 cd mafft-7.392-without-extensions/core/
 
-make clean
+gmake clean
 
 sed -i -e "s|PREFIX = /usr/local|PREFIX = $HOME/mafft_|g" Makefile
 
-make -j $NUM_CPU_JOBS ENABLE_MULTITHREAD=-Denablemultithread
+gmake -j $NUM_CPU_JOBS ENABLE_MULTITHREAD=-Denablemultithread
 echo $? > ~/install-exit-status
-make install
+gmake install
 cd ~/
 cp -f mafft-7.392-without-extensions/scripts/mafft mafft_/
 rm -rf mafft-7.392-without-extensions/
