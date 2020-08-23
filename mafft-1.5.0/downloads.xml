@@ -22,5 +22,11 @@
       <SHA256>0e08a3749b7196310b065a783f3cddc0a1f42876004d3f75ebe367d2ffe751bf</SHA256>
       <FileSize>13847</FileSize>
     </Package>
+    <Package>
+      <URL>https://raw.githubusercontent.com/apurvanandan1997/pts-test-profiles-patches/master/mafft-1.5.0/REPLACE_BASH_INTERPRETER.patch</URL>
+      <MD5>bc26321119aa701af073693f0fec4661</MD5>
+      <SHA256>cedcc79f77aa722049e5ee7fa2ea6b757a5f1e4bbcf57e200a35d363e5711ebd</SHA256>
+      <FileSize>4</FileSize>
+    </Package>
   </Downloads>
 </PhoronixTestSuite>

@@ -17,7 +17,7 @@ cp -f mafft-7.392-without-extensions/scripts/mafft mafft_/
 rm -rf mafft-7.392-without-extensions/
 
 bunzip2 pyruvate_decarboxylase.fasta.bz2 -c > mafft_/pyruvate_decarboxylase.fasta
-
+patch -p0 < REPLACE_BASH_INTERPRETER.patch
 cat>mafft<<EOT
 #!/bin/sh
 cd mafft_/
